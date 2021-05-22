@@ -9,7 +9,7 @@ IPC using message queue involves following steps:
 - Sending the Message to the Process A through the Message Queue
 - Receiving the Message from the Process A through the Message Queue
 
-![alt text](http://url/to/img.png)
+![msg_queue](https://github.com/pratikparvati/message_queue/blob/master/msg_queue.png)
 
 Each message is given an identification or "type" so that processes can select the appropriate message and process must share a common "key" in order to gain access to the queue in the first place.
 
@@ -177,8 +177,17 @@ int main()
 ```
 
 start client and server, enter the message to be sent to server
-<Image>
 
+![client_bash](https://github.com/pratikparvati/message_queue/blob/master/msg_qclient.PNG)
 
+![server_bash](https://github.com/pratikparvati/message_queue/blob/master/msg_qserver.PNG)
+
+Message Queue on Linux terminal
+
+![msg_queue_terminal](https://github.com/pratikparvati/message_queue/blob/master/msg_qipcs.PNG)
+
+Thanks for reading
+
+Pratik Parvati
 
 
