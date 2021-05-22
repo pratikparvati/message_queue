@@ -9,7 +9,7 @@ IPC using message queue involves following steps:
 - Sending the Message to the Process A through the Message Queue
 - Receiving the Message from the Process A through the Message Queue
 
-<Image>
+![alt text](http://url/to/img.png)
 
 Each message is given an identification or "type" so that processes can select the appropriate message and process must share a common "key" in order to gain access to the queue in the first place.
 
